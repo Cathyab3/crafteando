@@ -11,19 +11,19 @@ const categories = [
   {
     title: "Guía de Mobs",
     desc:  "Conoce cada criatura y enemigo del juego.",
-    img :  "/images/cat_Mobs.png",
+    img :  "/images/Cat_Mobs.png",
     to  :  "/mobs",
   },
   {
     title: "Recursos",
     desc:  "Aprende dónde encontrar minerales, cultivos y más.",
-    img :  "/images/cat_Recursos.png",
+    img :  "/images/Cat_Recursos.png",
     to  :  "/recursos",
   },
   {
     title: "Marketplace",
     desc:  "Explora mapas, skins y paquetes exclusivos.",
-    img :  "/images/cat_Marketplace.png",
+    img :  "/images/Cat_Marketplace.png",
     to  :  "/marketplace",
   },
   
