@@ -1,0 +1,67 @@
+/* barra negra */
+.navbar {
+  background: #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,.4);
+}
+
+/* --- contenedor centrado --- */
+.container {
+  max-width: 1440px;      /* coincide con ancho del slider (ajusta si usas otro) */
+  margin: 0 auto;         /* centra */
+  padding: 0.6rem 2.5rem; /* deja el mismo padding que las flechas */
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* logo | menú (crece) | auth */
+  align-items: center;
+}
+
+/* logo */
+.brand img {
+  width: 140px;
+  height: auto;
+}
+
+/* menú centrado */
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;   /* centra dentro de la celda */
+  align-items: center;
+}
+
+/* enlaces base */
+.link {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: color .25s;
+}
+
+/* hover + activo */
+.link:hover,
+.active {
+  color: #52A535;
+}
+
+/* contenedor del botón/login (por si necesitas otros estilos) */
+.authBox {
+  display: flex;
+  align-items: center;
+}
+
+/* botón logout coherente con la UI */
+.logoutBtn {
+  padding: 0.45rem 1.1rem;
+  border: 2px solid #52A535;
+  background: transparent;
+  color: #52A535;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .25s,color .25s;
+}
+
+.logoutBtn:hover {
+  background: #52A535;
+  color: #000;
+}
