@@ -34,7 +34,7 @@ const categories = [
     categories.push({
       title: "Coordenadas",
       desc:  "Consulta y guarda tus puntos de interés.",
-      img:   "/images/cat_Coords.png",
+      img:   "/images/Cat_Coords.png",
       to:    "/coordenadas",
     });
   }
